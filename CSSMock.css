@@ -20,34 +20,30 @@ clear: both;
 
 .header {
     background-color: #222222;
+    color: white;
 }
 .logo {
     float: left;
 }
-.headeritems {
-        margin: 0px;
-        color: white;
-        /*float: left;*/
-    }
 .headeritems a {
     color: white;
     text-decoration: none;
+}
+.headeritems a:hover {
+    background-color: orange;
+    weight: bolder;
 }
 
 .headeritems li {
     display: inline;
     padding: 5px;
-    /*float: left;*/
+
 }
 .headeritems ul {
     float: left;
 }
 
-.search {
-    float: left;
-
-}
-.avatar {
+.rightheader {
     float: right;
 }
 
@@ -63,72 +59,26 @@ h2 {
 }
 
 #right-side {
-    /*background-color: orange;*/
     margin-top: 5%;
     display: inline-block;
+    box-sizing: border-box;
     float: right;
-    width: 246px;
-    display: block;
+    width: 30%;
     padding-left: 20px;
     padding-right: 20px;
-    box-sizing: border-box;
 }
+
 #job-board {
-        display: block;
-        float: right;
-        height: 200px;
-        width: 246px;
-        background-color: rgba(255,255,255,0.75);
-        padding: 25px;
-        margin-bottom: 43px;
-        border-radius: 10%;
+    display: block;
+    float: right;
+    height: 200px;
+    width: 246px;
+    background-color: rgba(255,255,255,0.75);
+    padding: 25px;
+    margin-bottom: 43px;
+    border-radius: 10%;
 
     }
-#media-template{
-float: right;
-margin-bottom: 43px;
-display: block;
-background-color: rgba(255,255,255,0.75);
-padding: 25px;
-height: 200px;
-width: 246px;
-border-radius: 10%;
-position: relative;
-text-align: center;
-}
-#left-side {
-    margin-top: 5%;
-    /*float: left;*/
-    width: 60%;
-    display: inline-block;
-    padding-left: 10%;
-    padding-right: 20px;
-    box-sizing: border-box;
-}
-
-.img2 {
-    width: 100px;
-    height: 100px;
-    float: left;
-}
-.img3 {
-    width: 246px;
-    height: 100px;
-    float: left;
-}
-.content {
-background-color: rgba(255,255,255,0.75);
-float: left;
-padding: 3%;
-margin-bottom: 43px;
-border-radius: 10%
-}
-
-.divi {
-    float: left;
-    margin-left: 5%;
-}
-
 #custom-forms {
     float: right;
     margin-bottom: 43px;
@@ -141,25 +91,81 @@ border-radius: 10%
     position: relative;
     text-align: center;
 }
+#media-template{
+    float: right;
+    margin-bottom: 43px;
+    display: block;
+    background-color: rgba(255,255,255,0.75);
+    padding: 25px;
+    height: 200px;
+    width: 246px;
+    border-radius: 10%;
+    position: relative;
+    text-align: center;
+}
 
-@media (max-width: 1018px) {
-    .header .logo {
-        float: none;
-    }
-    .header {
-        text-align: center;
-    }
-    #left-side {
-        float: none;
-    }
-    #right-side {
-        float: none;
+.img2 {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.img3 {
+    width: 246px;
+    height: 100px;
+    float: left;
+}
+
+/* left side website css stuff */
+#leftsside {
+    margin-top: 5%;
+    box-sizing: border-box;
+    width: 70%;
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 50px;
+}
+
+
+#code {
+    width: 403px;
+}
+.article {
+    background-color: rgba(255,255,255,0.75);
+    padding: 54px;
+    box-sizing: border-box;
+    border: 10px;
+    margin-bottom: 43px;
+    width: 700px;
+    height: auto;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.divi {
+    float: left;
+    margin-left: 5%;
+}
+
+.ad {
+    background-color: rgba(255,255,255,0.75);
+    padding: 54px;
+    border: 10px;
+    margin-bottom: 43px;
+    display: block;
+    border-radius: 2%;
+    text-align: center;
+    /*float: left;*/
+    box-sizing: border-box;
+}
+
+
+
+/*@media (max-width: 1018px) {
+    .nav {
+        float: left;
     }
 }
-@media (max-width: 768px) {
-    .search {
-        display: none;
-    }
+
     .header .avatar {
         position: absolute;
         top: 4px;
@@ -180,5 +186,4 @@ border-radius: 10%
     }
     .header .headeritems li a {
         padding: 5px 19px;
-    }
-}
+    }*/
